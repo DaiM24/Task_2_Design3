@@ -1,23 +1,59 @@
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Fjalla One', sans-serif;
+    
 }
 h1 {
     font-size: 60px;
-    margin: 0px 40px;
+    margin: 0px 50px;
 }
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: black;
-    color: aliceblue; 
+    color: aliceblue;
 }
-a{
+a {
     color: yellow;
-    margin: 50px;
-    text-decoration:none;
+    text-decoration: none;
+    padding: 50px 60px;
+    -webkit-text-stroke: 0.4px #f5ab3d;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
 }
+a:focus {
+    background-color: white;
+    color: black;
+    transform: scala 5.25;
+    transition: ease-in 300ms;
+    font-size: 30px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row: 2;
+    gap: 1em;
+}
+.element1 {
+    grid-column: 1/4;
+    background-image: url(../assets/design1_image2.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position-y: 60%;
+}
+.element2 {
+    grid-column: 1/4;
+    text-align: center;
+}
+.element {
+    color: rgb(10, 10, 10);
+    background-color: rgb(66, 150, 94);
+    text-align: center;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    margin: 0px 20px;
+    border-radius: 15px;
+}
+
