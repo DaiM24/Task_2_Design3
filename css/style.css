@@ -1,0 +1,23 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fjalla One', sans-serif;
+}
+h1 {
+    font-size: 60px;
+    margin: 0px 40px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue; 
+}
+a{
+    color: yellow;
+    margin: 50px;
+    text-decoration:none;
+}
