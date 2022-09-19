@@ -2,12 +2,18 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Fjalla One', sans-serif;
-    
+    font-family: 'Fjalla One', sans-serif; 
 }
 h1 {
     font-size: 60px;
     margin: 0px 50px;
+}
+h2{
+    text-align: center;
+    padding: 20px 0px;
+}
+h3 {
+    padding-left: 15px;
 }
 .navbar {
     display: flex;
@@ -16,14 +22,14 @@ h1 {
     background-color: black;
     color: aliceblue;
 }
-a {
+nav > a {
     color: yellow;
     text-decoration: none;
     padding: 50px 60px;
     -webkit-text-stroke: 0.4px #f5ab3d;
     box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
 }
-a:focus {
+a:hover {
     background-color: white;
     color: black;
     transform: scala 5.25;
@@ -33,27 +39,80 @@ a:focus {
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row: 2;
     gap: 1em;
 }
 .element1 {
     grid-column: 1/4;
     background-image: url(../assets/design1_image2.jpg);
-    height: 50vh;
+    height: 45vh;
     background-size: cover;
-    background-position-y: 60%;
+    background-position-y: 50%;
 }
 .element2 {
     grid-column: 1/4;
-    text-align: center;
 }
 .element {
     color: rgb(10, 10, 10);
-    background-color: rgb(66, 150, 94);
+    background-color: rgb(238, 238, 92);
     text-align: center;
     padding: 40px;
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     margin: 0px 20px;
     border-radius: 15px;
 }
-
+.grid1 {
+    display: grid;
+    grid-template-columns: 15% 79%;
+    gap: 2em;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+div>img {
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    margin-left: 30px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.info {
+    padding: 15px;
+    background-color: rgb(124, 223, 148);
+    border-radius: 15px;
+    padding-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+p {
+    padding-left: 15px;
+}
+.container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact {
+    width: 30vw;
+    margin: 5px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.contact1 {
+    text-align: center;
+    background-color:black;
+    color: white;
+    width: 30vw;
+    margin: 5px 0px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.mail {
+    text-align: center;
+    margin-bottom: 5px;
+}
+button {
+    background-color: rgb(221, 221, 59);
+}
+button:hover {
+    background-color: rgb(124, 223, 148);
+    color:white;
+}
