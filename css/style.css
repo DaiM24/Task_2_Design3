@@ -26,13 +26,11 @@ nav > a {
     color: yellow;
     text-decoration: none;
     padding: 50px 60px;
-    -webkit-text-stroke: 0.4px #f5ab3d;
     box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
 }
 a:hover {
     background-color: white;
     color: black;
-    transform: scala 5.25;
     transition: ease-in 300ms;
     font-size: 30px;
 }
@@ -96,7 +94,7 @@ p {
     border-radius: 10px;
     border: 2px solid black;
 }
-.contact1 {
+label {
     text-align: center;
     background-color:black;
     color: white;
@@ -106,8 +104,9 @@ p {
     border-radius: 10px;
 }
 .mail {
+    font-size: 18px;
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 button {
     background-color: rgb(221, 221, 59);
